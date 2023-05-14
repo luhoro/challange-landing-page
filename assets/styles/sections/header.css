@@ -1,8 +1,8 @@
 @import "../base.css";
 
 .header {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
-    background-color: var(--color-primary);
+
+    background-color: #00000083;
     padding-top: 70px;
     padding-bottom: 130px;
     text-align: center;
@@ -20,16 +20,28 @@
 .header nav ul {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
+}
+
+.header nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 160px;
+    height: 40px;
 }
 
 .header nav li a {
     background-color: var(--color-background);
-    padding: 12px 24px;
-    text-decoration: none;
     color: var(--color-text);
-    border-radius: 4px;
+    width: 100%;
+    padding: 12px 0;
+    text-decoration: none;
     font-size: 14px;
+    border-radius: 4px;
 }
 
 .header nav li a:hover {

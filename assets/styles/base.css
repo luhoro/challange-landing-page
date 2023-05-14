@@ -11,7 +11,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 
-
     --color-background: #FFFFFF;
     --color-primary: #707070;
     --color-text: #888888;
@@ -50,6 +49,7 @@ h4 {
 
 h5 {
     font-size: 14px;
+    font-weight: 300;
 }
 
 p {
@@ -65,11 +65,12 @@ p {
 }
   
 .title-section .divisor {
-    width: 38%;
+    width: 35%;
     height: 2px;
     background-color: var(--color-text);
 }
 
 .title-section h2 {
-
+    text-align: center;
+    white-space: nowrap; 
 }
