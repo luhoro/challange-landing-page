@@ -38,38 +38,38 @@ h1 {
 
 h2 {
     font-size: 20px;
-    font-weight: 300;
 }
 
 h3 {
     font-size: 18px;
-    font-weight: 300;
 }
 
 h4 {
     font-size: 16px;
-    font-weight: 300;
 }
 
 h5 {
     font-size: 14px;
-    font-weight: 300;
 }
 
 p {
     font-size: 12px;
-    font-weight: 300;
+
 }
 
 .title-section {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 400;
-  }
+}
   
-  .title-section .divisor {
+.title-section .divisor {
     width: 38%;
-    background-color: var(--color-text);
     height: 2px;
-  }
+    background-color: var(--color-text);
+}
+
+.title-section h2 {
+
+}
