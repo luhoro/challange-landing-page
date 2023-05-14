@@ -14,4 +14,18 @@
     .header nav ul li {
         width: 100%;
     }
+
+    .contact .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact .text {
+        width: 100%;
+    }
+
+    .contact .form {
+        width: 100%;
+    }
 }
