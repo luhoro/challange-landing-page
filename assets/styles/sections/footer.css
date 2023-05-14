@@ -1,0 +1,9 @@
+@import "../base.css";
+
+.footer {
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: var(--color-primary);
+    padding: 160px 0 86px 0;
+    text-align: center;
+    color: var(--color-background);
+}
