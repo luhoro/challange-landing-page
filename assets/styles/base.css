@@ -18,6 +18,14 @@
     --color-secondary: #00000029;
 }
 
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
+    border-radius: 4px;
+}
+
 .container {
     width: 80%;
     max-width: 930px;
@@ -53,3 +61,15 @@ p {
     font-weight: 300;
 }
 
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+  }
+  
+  .title-section .divisor {
+    width: 38%;
+    background-color: var(--color-text);
+    height: 2px;
+  }
