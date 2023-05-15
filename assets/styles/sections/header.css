@@ -1,8 +1,9 @@
 @import "../base.css";
 
 .header {
-
-    background-color: #00000083;
+    background-image: url('../../images/header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 70px;
     padding-bottom: 130px;
     text-align: center;
@@ -42,6 +43,7 @@
     text-decoration: none;
     font-size: 14px;
     border-radius: 4px;
+    border: 0.5px solid var(--color-primary);
 }
 
 .header nav li a:hover {
