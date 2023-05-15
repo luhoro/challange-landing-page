@@ -2,6 +2,14 @@
 
 @media screen and (max-width:670px){
 
+    .container {
+        width: 90%;
+    }
+
+    .title-section {
+        padding: 0 -10px;
+    }
+
     .header nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -27,5 +35,20 @@
 
     .contact .form {
         width: 100%;
+    }
+
+    .share form {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        gap: 23px
+    }
+
+    .card .card-text h5 {
+        margin-top: 0;
     }
 }

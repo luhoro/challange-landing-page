@@ -65,7 +65,7 @@ p {
 }
   
 .title-section .divisor {
-    width: 35%;
+    width: 50%;
     height: 2px;
     background-color: var(--color-text);
 }
