@@ -1,7 +1,7 @@
-@import "../base.css";
+@import '../base.css';
 
 .products .container {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .cards {
@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 200px;
-
 }
 
 .card-photo {
@@ -46,7 +45,7 @@
 
 .card .card-text p:first-of-type,
 .card .card-text p:last-of-type {
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 
 .card .card-text h4 {
