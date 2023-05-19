@@ -1,76 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 :root {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
 
-    --color-background: #FFFFFF;
-    --color-primary: #707070;
-    --color-text: #888888;
-    --color-secondary: #00000029;
+	--color-background: #ffffff;
+	--color-primary: #707070;
+	--color-text: #888888;
+	--color-secondary: #00000029;
 }
 
 button {
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid var(--color-text);
-    color: var(--color-text);
-    border-radius: 4px;
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px solid var(--color-text);
+	color: var(--color-text);
+	border-radius: 4px;
+}
+
+button:hover {
+	color: #000000;
 }
 
 .container {
-    width: 80%;
-    max-width: 930px;
-    margin: 0 auto;
+	width: 80%;
+	max-width: 930px;
+	margin: 0 auto;
 }
 
 h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
 
 h2 {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 h3 {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 h4 {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 h5 {
-    font-size: 14px;
-    font-weight: 300;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 p {
-    font-size: 12px;
-
+	font-size: 12px;
 }
 
 .title-section {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-  
+
 .title-section .divisor {
-    width: 50%;
-    height: 2px;
-    background-color: var(--color-text);
+	width: 50%;
+	height: 2px;
+	background-color: var(--color-text);
 }
 
 .title-section h2 {
-    text-align: center;
-    white-space: nowrap; 
+	text-align: center;
+	white-space: nowrap;
 }
