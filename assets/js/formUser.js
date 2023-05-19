@@ -14,7 +14,6 @@ getUserData.onsubmit = function (event) {
 
 	verifyForm(inputName, inputEmail, inputCpf)
 
-
 	function verifyEach(each, name) {
 		let errorMessage = each.nextSibling.nextSibling
 		if (!each.value) {
@@ -26,14 +25,12 @@ getUserData.onsubmit = function (event) {
 	}
 
 	function verifyForm(inputName, inputEmail, inputCpf) {
-		if (inputEach) {
+		if (inputName.value && inputEmail.value && inputCpf.value) {
 			alert('Dados enviados com sucesso!')
 
 		} else {
 
 		}
 	}
-
-
 }
 
