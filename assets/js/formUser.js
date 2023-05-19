@@ -8,49 +8,32 @@ getUserData.onsubmit = function (event) {
 	const inputEmail = document.getElementById("email")
 	const inputCpf = document.getElementById("cpf")
 
-	verifyName(inputName)
-	verifyEmail(inputEmail)
-	verifyCpf(inputCpf)
+	verifyEach(inputName, 'nome')
+	verifyEach(inputEmail, 'e-mail')
+	verifyEach(inputCpf, 'CPF')
+
 	verifyForm(inputName, inputEmail, inputCpf)
 
 
-	function verifyName(inputName) {
-		let errorMessage = inputName.nextSibling.nextSibling
-		if (!inputName.value) {
+	function verifyEach(each, name) {
+		let errorMessage = each.nextSibling.nextSibling
+		if (!each.value) {
 			hasError = true
-			errorMessage.innerText = 'Obrigatório preencher o nome!'
-		} else {
-			errorMessage.innerText = ''
-		}
-	}
-
-	function verifyEmail(inputEmail) {
-		let errorMessage = inputEmail.nextSibling.nextSibling
-		if (!inputEmail.value) {
-			hasError = true
-			errorMessage.innerText = 'Obrigatório preencher o Email!'
-		} else {
-			errorMessage.innerText = ''
-		}
-	}
-
-	function verifyCpf(inputCpf) {
-		let errorMessage = inputCpf.nextSibling.nextSibling
-		if (!inputCpf.value) {
-			hasError = true
-			errorMessage.innerText = 'Obrigatório preencher o CPF!'
+			errorMessage.innerText = `Obrigatório preencher o ${name}!`
 		} else {
 			errorMessage.innerText = ''
 		}
 	}
 
 	function verifyForm(inputName, inputEmail, inputCpf) {
-		if (inputName && inputEmail && inputCpf) {
+		if (inputEach) {
 			alert('Dados enviados com sucesso!')
 
 		} else {
 
 		}
 	}
+
+
 }
 
