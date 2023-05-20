@@ -7,7 +7,7 @@ getShareData.onsubmit = function (event) {
     const inputName = document.getElementById('friends-name')
     const inputEmail = document.getElementById('friends-email')
 
-    verifyEach(inputName, 'nome')
+    verifyEach(inputName, 'nome do amigo')
     verifyEach(inputEmail, 'e-mail')
 
     verifyForm(inputName, inputEmail)
@@ -16,7 +16,7 @@ getShareData.onsubmit = function (event) {
         let errorMessage = each.nextSibling.nextSibling
         if (!each.value) {
             hasError = true
-            errorMessage.innerText = `Obrigatório preencher o ${name} do amigo!`
+            errorMessage.innerText = `Obrigatório preencher o campo "${name}"!`
         } else {
             errorMessage.innerText = ''
         }
@@ -25,10 +25,6 @@ getShareData.onsubmit = function (event) {
     function verifyForm(inputName, inputEmail) {
         if (inputName.value && inputEmail.value) {
             alert('Dados enviados com sucesso!')
-
-        } else {
-
         }
-
     }
 }
