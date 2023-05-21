@@ -10,6 +10,7 @@
 :root {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
+	font-size: 12px;
 
 	--color-background: #ffffff;
 	--color-primary: #967474;
@@ -36,28 +37,24 @@ button:hover {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 3rem;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 1.7rem;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 1.5rem;
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 1.3rem;
 }
 
 h5 {
-	font-size: 14px;
+	font-size: 1.15rem;
 	font-weight: 300;
-}
-
-p {
-	font-size: 12px;
 }
 
 .title-section {
