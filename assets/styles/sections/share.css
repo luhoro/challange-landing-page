@@ -37,10 +37,10 @@
 
 .share .type p {
 	position: absolute;
-	color: #cf0808;
+	color: #ff1010;
 	font-weight: bolder;
-	top: 0;
-	right: 0;
+	bottom: -15px;
+	left: 0;
 }
 
 .share form button {

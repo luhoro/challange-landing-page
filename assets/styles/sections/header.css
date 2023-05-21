@@ -1,8 +1,10 @@
 @import "../base.css";
 
 .header {
-	background: url("../../images/header.svg") no-repeat;
-	background-size: cover;
+	/* background: url("../../images/header.svg") no-repeat;
+	background-size: cover; */
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
+	background-color: var(--color-primary);
 	padding-top: 70px;
 	padding-bottom: 130px;
 	text-align: center;

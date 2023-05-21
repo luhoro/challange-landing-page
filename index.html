@@ -93,13 +93,28 @@
 
           <div class="input-radio">
             <div>
-              <input type="radio" id="male" name="gender" checked />
-              <label for="male">Masculino</label>
+              <input type="radio" id="female-cis" name="gender" />
+              <label for="female-cis">Mulher cis</label>
             </div>
 
             <div>
-              <input type="radio" id="female" name="gender" />
-              <label for="female">Feminino</label>
+              <input type="radio" id="female-trans" name="gender" />
+              <label for="female-trans">Mulher trans</label>
+            </div>
+
+            <div>
+              <input type="radio" id="male-cis" name="gender" />
+              <label for="male-cis">Homem cis</label>
+            </div>
+
+            <div>
+              <input type="radio" id="male-trans" name="gender" />
+              <label for="male-trans">Homem trans</label>
+            </div>
+
+            <div>
+              <input type="radio" id="non-binary" name="gender" />
+              <label for="non-binary">Não binário</label>
             </div>
           </div>
 
@@ -138,6 +153,7 @@
         <h5>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h5>
 
         <form method="post" id="form-share-data">
+
           <div class="inputs">
             <div class="type">
               <label for="friends-name">Nome do seu amigo:</label>
@@ -150,7 +166,6 @@
               <input type="email" id="friends-email">
               <p></p>
             </div>
-
           </div>
 
           <button id="share-button">Enviar agora</button>
